@@ -5,7 +5,7 @@ module MarkdownProcessor
   # Write tests for your method.
   
   
-  def self.convert_to_h1(string)
+  def convert_to_h1(string)
     
     if string[0] == '#'
       string.delete!("#", " ") #string method that in this case, will delete a "#" and empty spaces from a string
